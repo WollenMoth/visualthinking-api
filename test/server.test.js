@@ -22,4 +22,11 @@ describe("Unit Test for Visual Thinking API", () => {
         expect(res.body.emails).toBeDefined();
         expect(res.body.emails.length).toBeDefined();
     });
+
+    test("GET /v1/students/credits", async () => {
+        const res = await http.get("/v1/students/credits");
+        expect(res.statusCode).toBe(200);
+        expect(res.body.students).toBeDefined();
+        expect(res.body.students.length).toBeDefined();
+    });
 });
