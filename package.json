@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server": "node index",
     "test": "jest",
     "linter": "eslint .",
     "linter-fix": "eslint . --fix"
