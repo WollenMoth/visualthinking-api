@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "name": "user1",
+    "email": "user1@domain.com",
+    "credits": "100",
+    "enrollments": ["Enrollment1"],
+    "previousCourses": 1,
+    "haveCertification": true
+  }
+]
