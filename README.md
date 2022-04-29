@@ -47,3 +47,7 @@ Muestra los correos de los estudiantes que tengan certificación
 ### GET /v1/students/credits
 
 Muestra los estudiantes que tengan 500 créditos o más
+
+## Notas
+
+El tiempo que tomó la realización de este proyecto fueron aproximadamente 80 minutos
