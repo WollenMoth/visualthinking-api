@@ -1,0 +1,22 @@
+{
+  "name": "visualthinking-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "linter": "eslint .",
+    "linter-fix": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "wollenmoth",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^28.0.2",
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
